@@ -1,11 +1,12 @@
-module.export = {
-  configurewebpack:{
+module.exports = {
+  configureWebpack:{
     resolve:{
       alias:{
-        "assets":"@/assets",
-        "components":"@/components",
-        "common":"@/common",
-        "views":"@/views"
+        'assets':'@/assets',
+        'components':'@/components',
+        'views':'@/views',
+        'common':'@/common',
+        'network':'@/network'
       }
     }
   }
