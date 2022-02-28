@@ -1,8 +1,8 @@
 <template>
-  <div id="Tabbar">
+  <div class="Tabbar">
     <tabbar-items>
-      <img src="" alt="" slot="icon">
-      <div slot="txt">你好</div>
+      <img src="@/assets/img/home/home.svg" alt="">
+      <!-- <div slot="b">niuwa dadad</div> -->
     </tabbar-items>
   </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-  #Tabbar{
+  .Tabbar{
     background-color: red;
     display: flex;
     width: 100%;
